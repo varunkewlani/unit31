@@ -27,7 +27,8 @@ function PrintDeveloperbyForEach() {
 
 function addData() {
   let employee={id:4, name:"susan", age:"20", profession:"intern"}
-  console.log(arr.push(employee));
+  arr.push(employee);
+  console.log(arr);
 
   
   //Write your code here, just console.log
